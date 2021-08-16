@@ -53,6 +53,48 @@ const Projects = (props) => {
       </Container>
       <hr />
 
+      <Container className={classes.project}>
+        <Row>
+            <h4>Build a Graphql API with Gqlgen and MySQL</h4>
+        </Row>
+        <Row>
+          <Col md="6">
+          <h6>In this article, we will be building a graphql API for a book club where members can perform basic CRUD operations</h6>
+          </Col>
+          <Col md="3"></Col>
+          <Col md="3"></Col>
+        </Row>
+        <Row>
+          <LinkIcon />&nbsp; &nbsp;
+          <Typography>
+            <a target="_blank" href="https://www.linkedin.com/pulse/build-graphql-api-gqlgen-mysql-alexander-ikeh-web-developer/">View Articles</a>
+          </Typography>
+        </Row>
+      </Container>
+      <hr />
+
+      
+      <Container className={classes.project}>
+        <Row>
+            <h4>Configure CORS on Gqlgen with React </h4>
+        </Row>
+        <Row>
+          <Col md="6">
+          <h6>The first time i encountered the CORS preflight request error, i spent 3-4 days trying to fix the error and it pushed me into impostor syndrome. 
+            This is the sole reason for this article to help the next dev this hassle</h6>
+          </Col>
+          <Col md="3"></Col>
+          <Col md="3"></Col>
+        </Row>
+        <Row>
+          <LinkIcon />&nbsp; &nbsp;
+          <Typography>
+            <a target="_blank" href="https://www.linkedin.com/pulse/configure-cors-gqlgen-react-alexander-ikeh-web-developer/">View Articles</a>
+          </Typography>
+        </Row>
+      </Container>
+      <hr />
+
       </Container>
     </div>
   );
