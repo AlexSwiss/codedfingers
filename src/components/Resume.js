@@ -28,7 +28,24 @@ const Resume = (props) => {
       <Container className={classes.job}>
       <hr />
         <Row>
-          <h5><b>Software Developer Intern (Remote) </b> | Amondial Capital 
+          <h5><b>Backend Engineer (Remote) </b> | Agroverified
+          <h6>Africa</h6><h6>May 2021 - Present</h6></h5>
+        </Row>
+        
+        <ul>
+          <li>
+            My team Built the first product of the startup from ground up which handles thousands of farmer's data
+          </li>
+          <li>
+            I worked with the team on designing the whole backend architecture and I handled the entire deployment process on AWS with S3, 
+            CloudFront and EC2. Also implemented Load Balancing with Amazon's ALB on the Ec2 instance.
+          </li>
+        </ul>
+        <hr />
+      </Container>
+      <Container className={classes.job}>
+        <Row>
+          <h5><b>Software Developer </b> | Amondial Capital 
           <h6>Singapore</h6><h6>Jan 2020 - Present</h6></h5>
         </Row>
         
