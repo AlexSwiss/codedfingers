@@ -29,7 +29,7 @@ const Projects = (props) => {
     <div>
       <AppNav/>
       <Container>
-      <Container><h3>Some of my projects..</h3></Container>
+      <Container><h3>Some of my personal projects..</h3></Container>
       <Container className={classes.project}>
       <hr />
         <Row>
